@@ -1,0 +1,33 @@
+1)
+GET / HTTP/1.0
+Host: u68528.kubsu.ru
+
+2)
+GET / HTTP/1.1
+Host: u68528.kubsu-dev.ru
+
+3)
+HEAD /s0188328-WEB-2/files/file.tar.gz HTTP/1.1
+Host: u68528.kubsu-dev.ru
+
+4)
+HEAD /s0188328-WEB-2/files/image.png HTTP/1.1
+Host: u68528.kubsu-dev.ru
+
+5)
+POST /s0188328-WEB-2/files/index.php HTTP/1.1
+Host: u68528.kubsu-dev.ru
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 13
+
+comment=hello
+
+
+6)
+GET /s0188328-WEB-2/files/file.tar.gz HTTP/1.1
+Host: u68528.kubsu-dev.ru
+Range: bytes=0-99
+
+7)
+HEAD /s0188328-WEB-2/files/index.php HTTP/1.1
+Host: u68528.kubsu-dev.ru
